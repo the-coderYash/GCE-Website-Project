@@ -81,17 +81,8 @@ nav img{
           transition: 1s;
 }
 
-nav .fa-solid{
+nav .fa{
           display: none;
-}
-nav .fa-regular{
-          display: none;
-}
-nav .fa-solid{
-          visibility: hidden;
-}
-nav .fa-regular{
-          visibility: hidden;
 }
 
 @media(max-width: 700px){
@@ -112,28 +103,17 @@ nav .fa-regular{
                     z-index:2;
                     transition: 1s;
           }
+          nav .fa{
+                    display: block;
+                    color: #fff;
+                    margin: 10px;
+                    font-size: 22px;
+                    cursor: pointer;
+                    }
+          .nav-links ul{
+                    padding: 30px;
+          }
 }
-nav .fa-regular{
-          display: block;
-          color: #fff;
-          margin: 10px;
-          font-size: 22px;
-          cursor: pointer;
-          }
-          .nav-links ul{
-                    padding: 30px;
-          }
-nav .fa-solid{
-          display: block;
-          color: #fff;
-          margin: 10px;
-          font-size: 22px;
-          cursor: pointer;
-          }
-          .nav-links ul{
-                    padding: 30px;
-          }
-
 
 
 
